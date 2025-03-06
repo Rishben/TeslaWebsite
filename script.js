@@ -1,39 +1,46 @@
-$(window).scroll(function() {
-    if ($(window).scrollTop() > 50) {
-        $('.navbar').addClass('scrolled');
-    } else {
-        $('.navbar').removeClass('scrolled');
-    }
-});
+    // Navbar scroll effect
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+            document.querySelector(".navbar").classList.add("scrolled");
+        } else {
+            document.querySelector(".navbar").classList.remove("scrolled");
+        }
+    });
 
-// Scroll animation
-$(document).ready(function() {
     // Smooth scrolling for navbar links
-    $('a[href^="#"]').on('click', function(e) {
-        e.preventDefault();
-        
-        var target = this.hash;
-        var $target = $(target);
-        
-        $('html, body').animate({
-            'scrollTop': $target.offset().top - 70
-        }, 800, 'swing');
-    });
-    
-    // Fade in animations on scroll
-    $(window).scroll(function() {
-        $('.fade-in-up').each(function() {
-            var elementTop = $(this).offset().top;
-            var elementBottom = elementTop + $(this).outerHeight();
-            var viewportTop = $(window).scrollTop();
-            var viewportBottom = viewportTop + $(window).height();
-            
-            if (elementBottom > viewportTop && elementTop < viewportBottom) {
-                $(this).addClass('active');
-            }
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                var targetId = this.getAttribute("href").substring(1);
+                var targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: "smooth"
+                    });
+                }
+            });
         });
+
+        // Fade-in animations on scroll
+        function fadeInOnScroll() {
+            document.querySelectorAll(".fade-in-up").forEach(function (element) {
+                var elementTop = element.getBoundingClientRect().top;
+                var elementBottom = elementTop + element.offsetHeight;
+                var viewportTop = 0;
+                var viewportBottom = window.innerHeight;
+
+                if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                    element.classList.add("active");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", fadeInOnScroll);
+        
+        // Trigger initial scroll check
+        fadeInOnScroll();
     });
-    
-    // Trigger initial scroll to activate visible elements
-    $(window).scroll();
-});
