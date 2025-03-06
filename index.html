@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla - Electric Vehicles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <svg class="tds-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg" height="24">
+                    <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#models">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Model -->
+    <section class="hero-section">
+        <div id="hero-model-container">
+            <div class="sketchfab-embed-wrapper"> <iframe title="Tesla Roadster 2020" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1fbf29e297bd4a17ac39a00a378441d8/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tesla-roadster-2020-1fbf29e297bd4a17ac39a00a378441d8?utm_medium=embed&utm_campaign=share-popup&utm_content=1fbf29e297bd4a17ac39a00a378441d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Tesla Roadster 2020 </a> by <a href="https://sketchfab.com/metarex.4d?utm_medium=embed&utm_campaign=share-popup&utm_content=1fbf29e297bd4a17ac39a00a378441d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> metarex.4d </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=1fbf29e297bd4a17ac39a00a378441d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Experience Tesla</h1>
+            <p class="hero-subtitle">The future of electric vehicles is here</p>
+            <a href="#models" class="btn btn-light btn-lg rounded-pill px-4 py-2">Explore Models</a>
+        </div>
+        <a href="#models" class="scroll-btn">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Models</h2>
+            </div>
+            <div class="row">
+                <!-- Model S -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="product-card" data-bs-toggle="modal" data-bs-target="#modelSModal">
+                        <div class="model-container" id="model-container-s">
+                            <div class="sketchfab-embed-wrapper">
+                                <iframe title="Tesla Model S" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1360e3cf7323487eaba8ce94279229b6/embed?autostart=1&ui_controls=0&ui_infos=0&ui_watermark=0"></iframe>
+                            </div>
+                        </div>
+                        <span class="product-badge">Premium</span>
+                        <div class="product-content">
+                            <h3 class="product-title">Tesla Model S</h3>
+                            <div class="product-specs">
+                                <div class="spec-item">
+                                    <div class="spec-value">396mi</div>
+                                    <div class="spec-label">Range</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">1.99s</div>
+                                    <div class="spec-label">0-60 mph</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">200mph</div>
+                                    <div class="spec-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="product-price">From $89,990</div>
+                            <p class="product-description">Experience the ultimate in electric performance and luxury with the Model S Plaid.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Model 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="product-card" data-bs-toggle="modal" data-bs-target="#model3Modal">
+                        <div class="model-container" id="model-container-3">
+                            <div class="sketchfab-embed-wrapper"> <iframe title="Tesla Model 3" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/632435162090408c85d39808896601c9/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tesla-model-3-632435162090408c85d39808896601c9?utm_medium=embed&utm_campaign=share-popup&utm_content=632435162090408c85d39808896601c9" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Tesla Model 3 </a> by <a href="https://sketchfab.com/mike?utm_medium=embed&utm_campaign=share-popup&utm_content=632435162090408c85d39808896601c9" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Mike Pan </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=632435162090408c85d39808896601c9" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+                        </div>
+                        <span class="product-badge">Best Seller</span>
+                        <div class="product-content">
+                            <h3 class="product-title">Tesla Model 3</h3>
+                            <div class="product-specs">
+                                <div class="spec-item">
+                                    <div class="spec-value">358mi</div>
+                                    <div class="spec-label">Range</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">3.1s</div>
+                                    <div class="spec-label">0-60 mph</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">162mph</div>
+                                    <div class="spec-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="product-price">From $46,990</div>
+                            <p class="product-description">The most affordable Tesla model with impressive performance and range.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cybertruck -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="product-card" data-bs-toggle="modal" data-bs-target="#cybertruckModal">
+                        <div class="model-container" id="model-container-cyber">
+                            <div class="sketchfab-embed-wrapper"> <iframe title="Tesla Cybertruck Low-poly 3D" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2702a9fad1fc4b3e894ca07a213f2d20/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tesla-cybertruck-low-poly-3d-2702a9fad1fc4b3e894ca07a213f2d20?utm_medium=embed&utm_campaign=share-popup&utm_content=2702a9fad1fc4b3e894ca07a213f2d20" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Tesla Cybertruck Low-poly 3D </a> by <a href="https://sketchfab.com/Sidramax?utm_medium=embed&utm_campaign=share-popup&utm_content=2702a9fad1fc4b3e894ca07a213f2d20" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Sidra </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=2702a9fad1fc4b3e894ca07a213f2d20" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+                        </div>
+                        <span class="product-badge">New</span>
+                        <div class="product-content">
+                            <h3 class="product-title">Tesla Cybertruck</h3>
+                            <div class="product-specs">
+                                <div class="spec-item">
+                                    <div class="spec-value">500mi</div>
+                                    <div class="spec-label">Range</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">2.9s</div>
+                                    <div class="spec-label">0-60 mph</div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-value">11k</div>
+                                    <div class="spec-label">Towing (lbs)</div>
+                                </div>
+                            </div>
+                            <div class="product-price">From $79,990</div>
+                            <p class="product-description">Better utility than a truck with more performance than a sports car.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Tesla Advantages</h2>
+                <p class="lead text-muted">What makes Tesla vehicles stand out from the competition</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-card fade-in-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">Electric Powertrain</h3>
+                        <p class="feature-description">Tesla's all-electric powertrain delivers unparalleled performance, with instant torque and impressive acceleration.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-card fade-in-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Supercharger Network</h3>
+                        <p class="feature-description">Tesla's global Supercharger network allows for convenient long-distance travel with rapid charging capabilities.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-card fade-in-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="feature-title">Autopilot</h3>
+                        <p class="feature-description">Advanced driver assistance features provide enhanced safety and convenience on your daily commute.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-card fade-in-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud-download-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Over-the-Air Updates</h3>
+                        <p class="feature-description">Regular software updates improve your vehicle over time, adding new features and enhancing existing ones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">What Our Customers Say</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in-up">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-content">"My Model S is the best car I've ever owned. The performance is incredible, and I love that it keeps getting better with software updates."</p>
+                        <h4 class="testimonial-author">Michael R.</h4>
+                        <p class="testimonial-position">Model S Owner - 3 years</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in-up">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-content">"The Model 3 is the perfect balance of affordability and performance. I never have to visit gas stations again, and Autopilot makes my commute so much easier."</p>
+                        <h4 class="testimonial-author">Jessica T.</h4>
+                        <p class="testimonial-position">Model 3 Owner - 2 years</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in-up">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-content">"I was skeptical about electric vehicles at first, but my Cybertruck has completely changed my mind. It has incredible power, and the design turns heads everywhere I go."</p>
+                        <h4 class="testimonial-author">Alex K.</h4>
+                        <p class="testimonial-position">Cybertruck Owner - 1 year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="lead text-muted">Have questions about our vehicles? Contact us today.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-4">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn buy-button btn-lg px-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>3500 Deer Creek Road, Palo Alto, CA 94304, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>+1 (888) 518-3752</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>sales@tesla.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 9am - 9pm<br>Saturday - Sunday: 10am - 7pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Experience Tesla?</h2>
+            <p class="cta-subtitle">Join the electric revolution today and discover why Tesla owners never want to go back to conventional vehicles.</p>
+            <a href="#models" class="btn btn-light btn-lg rounded-pill px-4 py-2 me-2">Explore Models</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4 py-2">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="footer-title">Tesla</h3>
+                    <p>Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mb-4">
+                    <h3 class="footer-title">Models</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Model S</a></li>
+                        <li><a href="#">Model 3</a></li>
+                        <li><a href="#">Model X</a></li>
+                        <li><a href="#">Model Y</a></li>
+                        <li><a href="#">Cybertruck</a></li>
+                        <li><a href="#">Roadster</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mb-4">
+                    <h3 class="footer-title">About</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Tesla</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mb-4">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Stores</a></li>
+                        <li><a href="#">Test Drive</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Charging</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mb-4">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Patents</a></li>
+                        <li><a href="#">Trademarks</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tesla, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Model Modals -->
+    <!-- Model S Modal -->
+    <div class="modal fade" id="modelSModal" tabindex="-1" aria-labelledby="modelSModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="product-modal-model-container">
+                        <div class="sketchfab-embed-wrapper">
+                            <iframe title="Tesla Model S" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1360e3cf7323487eaba8ce94279229b6/embed?autostart=1&ui_controls=1&ui_infos=1"></iframe>
+                        </div>
+                    </div>
+                    <h2 class="product-detail-title">Tesla Model S</h2>
+                    <p class="product-detail-subtitle">The ultimate electric sedan</p>
+                    <div class="detail-specs mb-4">
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">396mi</div>
+                            <div class="detail-spec-label">Range (EPA est.)</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1.99s</div>
+                            <div class="detail-spec-label">0-60 mph</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">200mph</div>
+                            <div class="detail-spec-label">Top Speed</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1,020hp</div>
+                            <div class="detail-spec-label">Peak Power</div>
+                        </div>
+                    </div>
+                    <div class="product-detail-description">
+                        <p>Model S Plaid has the quickest acceleration of any vehicle in production. Updated battery architecture enables both instant power and faster charging, giving you the freedom to travel wherever you want, whenever you want.</p>
+                        <p>With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and endurance. Refresh your cabin with clean, powerful HEPA filtration. A new, horizontal display and cinematic experience let you watch, game, and play from anywhere.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Available Options</h4>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fullSelfDriving">
+                                <label class="form-check-label" for="fullSelfDriving">
+                                    Full Self-Driving Capability (+$12,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="premiumInterior">
+                                <label class="form-check-label" for="premiumInterior">
+                                    Premium Interior (+$2,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="wallConnector">
+                                <label class="form-check-label" for="wallConnector">
+                                    Wall Connector (+$400)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Select Color</h4>
+                            <div class="d-flex mb-4">
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color1" style="background-color: #fff;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color2" style="background-color: #c00;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color3" style="background-color: #000;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color4" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color4" style="background-color: #00f;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div>
+                            <h3 class="mb-0">From $89,990</h3>
+                            <p class="text-muted">Est. payment: $1,299/mo</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary btn-lg px-4 me-2">Order Now</button>
+                            <button class="btn buy-button btn-lg px-4">Schedule Test Drive</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Model 3 Modal -->
+    <div class="modal fade" id="model3Modal" tabindex="-1" aria-labelledby="model3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Similar structure to Model S modal with Model 3 specific content -->
+                    <div class="product-modal-model-container">
+                        <div class="sketchfab-embed-wrapper">
+                            <iframe title="Tesla Model 3" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b881718c65cb48f093d620ba1396ff28/embed?autostart=1&ui_controls=1&ui_infos=1"></iframe>
+                        </div>
+                    </div>
+                    <h2 class="product-detail-title">Tesla Model 3</h2>
+                    <p class="product-detail-subtitle">High performance, affordable electric vehicle</p>
+                    <!-- Rest of Model 3 modal content would go here -->
+                    <div class="detail-specs mb-4">
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">396mi</div>
+                            <div class="detail-spec-label">Range (EPA est.)</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1.99s</div>
+                            <div class="detail-spec-label">0-60 mph</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">200mph</div>
+                            <div class="detail-spec-label">Top Speed</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1,020hp</div>
+                            <div class="detail-spec-label">Peak Power</div>
+                        </div>
+                    </div>
+                    <div class="product-detail-description">
+                        <p>Model S Plaid has the quickest acceleration of any vehicle in production. Updated battery architecture enables both instant power and faster charging, giving you the freedom to travel wherever you want, whenever you want.</p>
+                        <p>With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and endurance. Refresh your cabin with clean, powerful HEPA filtration. A new, horizontal display and cinematic experience let you watch, game, and play from anywhere.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Available Options</h4>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fullSelfDriving">
+                                <label class="form-check-label" for="fullSelfDriving">
+                                    Full Self-Driving Capability (+$12,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="premiumInterior">
+                                <label class="form-check-label" for="premiumInterior">
+                                    Premium Interior (+$2,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="wallConnector">
+                                <label class="form-check-label" for="wallConnector">
+                                    Wall Connector (+$400)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Select Color</h4>
+                            <div class="d-flex mb-4">
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color1" style="background-color: #fff;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color2" style="background-color: #c00;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color3" style="background-color: #000;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color4" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color4" style="background-color: #00f;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div>
+                            <h3 class="mb-0">From $89,990</h3>
+                            <p class="text-muted">Est. payment: $1,299/mo</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary btn-lg px-4 me-2">Order Now</button>
+                            <button class="btn buy-button btn-lg px-4">Schedule Test Drive</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Cybertruck Modal -->
+    <div class="modal fade" id="cybertruckModal" tabindex="-1" aria-labelledby="cybertruckModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Similar structure to Model S modal with Cybertruck specific content -->
+                    <div class="product-modal-model-container">
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla // Cyber truck" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/75ab7668aad54e5886712f556ab78abc/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tesla-cyber-truck-75ab7668aad54e5886712f556ab78abc?utm_medium=embed&utm_campaign=share-popup&utm_content=75ab7668aad54e5886712f556ab78abc" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Tesla // Cyber truck </a> by <a href="https://sketchfab.com/vlpaq?utm_medium=embed&utm_campaign=share-popup&utm_content=75ab7668aad54e5886712f556ab78abc" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> VAKE. </a> on <a href="https://sketchfab.com/?utm_medium=embed&utm_campaign=share-popup&utm_content=75ab7668aad54e5886712f556ab78abc" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+                    </div>
+                    <h2 class="product-detail-title">Tesla Cybertruck</h2>
+                    <p class="product-detail-subtitle">Better utility than a truck with more performance than a sports car</p>
+                    <!-- Rest of Cybertruck modal content would go here -->
+                    <div class="detail-specs mb-4">
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">396mi</div>
+                            <div class="detail-spec-label">Range (EPA est.)</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1.99s</div>
+                            <div class="detail-spec-label">0-60 mph</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">200mph</div>
+                            <div class="detail-spec-label">Top Speed</div>
+                        </div>
+                        <div class="detail-spec-item">
+                            <div class="detail-spec-value">1,020hp</div>
+                            <div class="detail-spec-label">Peak Power</div>
+                        </div>
+                    </div>
+                    <div class="product-detail-description">
+                        <p>Model S Plaid has the quickest acceleration of any vehicle in production. Updated battery architecture enables both instant power and faster charging, giving you the freedom to travel wherever you want, whenever you want.</p>
+                        <p>With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and endurance. Refresh your cabin with clean, powerful HEPA filtration. A new, horizontal display and cinematic experience let you watch, game, and play from anywhere.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Available Options</h4>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="fullSelfDriving">
+                                <label class="form-check-label" for="fullSelfDriving">
+                                    Full Self-Driving Capability (+$12,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="premiumInterior">
+                                <label class="form-check-label" for="premiumInterior">
+                                    Premium Interior (+$2,000)
+                                </label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="wallConnector">
+                                <label class="form-check-label" for="wallConnector">
+                                    Wall Connector (+$400)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="mb-3">Select Color</h4>
+                            <div class="d-flex mb-4">
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color1" style="background-color: #fff;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color2" style="background-color: #c00;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color3" style="background-color: #000;"></label>
+                                </div>
+                                <div class="me-2">
+                                    <input type="radio" class="btn-check" name="color" id="color4" autocomplete="off">
+                                    <label class="btn btn-outline-dark rounded-circle p-3" for="color4" style="background-color: #00f;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div>
+                            <h3 class="mb-0">From $89,990</h3>
+                            <p class="text-muted">Est. payment: $1,299/mo</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary btn-lg px-4 me-2">Order Now</button>
+                            <button class="btn buy-button btn-lg px-4">Schedule Test Drive</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
